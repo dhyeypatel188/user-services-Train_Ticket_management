@@ -17,7 +17,7 @@ app.use(
 );
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.options("*", cors());
+// app.options("*", cors());
 
 // Routes
 app.use("/api", adminRoutes);
